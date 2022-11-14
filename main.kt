@@ -71,7 +71,7 @@ fun main(args: Array<String>) {
         exitProcess(0)
     }
 
-    val fileContentFormatted = readFileDirectlyAsText("bfPrograms/fibonacci.bf")
+    val fileContentFormatted = readFileDirectlyAsText(fileName)
 
     var tokens = arrayOf<Token>()
 
